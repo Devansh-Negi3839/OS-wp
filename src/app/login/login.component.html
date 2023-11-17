@@ -1,0 +1,45 @@
+<div class="info">
+
+  <section class="left-section">
+    IWP assignment Due Date: 15th September, 2023 <br />
+    <strong>Roll no.: BT21CSE012</strong><br />Semester: 5<br />CSE'25<br />
+    <a href="mailto:devansh3839@gmail.com">devansh3839@gmail.com</a> <br />
+  </section>
+  <section class="right-section">
+    <img
+      src="../../assets/myPhoto.jpg"  
+      alt="Devansh Negi" 
+      width="100px"
+      height="100px"
+    />
+  </section>
+</div>
+<div>
+  <button [routerLink]="['/assignment1']" class="navigation-button">
+    Go to Assignment 1
+  </button>
+  <br>
+  <br>
+  <button [routerLink]="['/assignment2/part1']" class="navigation-button">
+    Go to Assignment 2, Part 1 (Countries)
+  </button>
+</div>
+
+<div>
+  <form [formGroup]="loginForm" (ngSubmit)="login()">
+    <div> 
+      <label>Email</label>
+      <input type="text" formControlName="email" />
+    </div>
+    <div>
+      <label>Password</label>
+      <input type="password" formControlName="password" />
+    </div>
+    <div>
+      <button type="submit">Login</button>
+    </div>
+    <div>
+      <a routerLink="/signup">Go To Signup</a>
+    </div>
+  </form>
+</div>

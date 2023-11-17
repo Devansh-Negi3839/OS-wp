@@ -1,0 +1,49 @@
+/* Add this to your CSS file */
+
+.content {
+    margin: 20px; /* Add some margin to the content */
+  }
+  
+  .info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px; /* Add space between info and content */
+  }
+  
+  .left-section {
+    max-width: 60%; /* Adjust the maximum width of the left section */
+  }
+  
+  .right-section img {
+    border-radius: 50%; /* Apply a border-radius for a circular image */
+  }
+  
+  .navigation-button {
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .navigation-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Container for the question and answer */
+  div {
+    margin-top: 20px; /* Add some space above the question and answer */
+  }
+  
+  h2 {
+    color: #007bff; /* Change the color of the question heading */
+  }
+  
+  /* Additional styling for the answer */
+  p {
+    line-height: 1.6; /* Adjust line height for better readability */
+  }
+  

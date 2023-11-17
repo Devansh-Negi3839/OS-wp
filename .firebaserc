@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "angularassignmentiwp"
+  },
+  "targets": {
+    "angularassignmentiwp": {
+      "hosting": {
+        "my-angular-app": [
+          "angularassignmentiwp"
+        ]
+      }
+    }
+  }
+}

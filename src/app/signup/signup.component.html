@@ -1,0 +1,57 @@
+<div class="info">
+  <section class="left-section">
+    IWP assignment Due Date: 15th September, 2023 <br />
+    <strong>Roll no.: BT21CSE012</strong><br />Semester: 5<br />CSE'25<br />
+    <a href="mailto:devansh3839@gmail.com">devansh3839@gmail.com</a> <br />
+  </section>
+  <section class="right-section">
+    <img
+      src="../../assets/myPhoto.jpg"
+      alt="Devansh Negi"
+      width="100px"
+      height="100px"
+    />
+  </section>
+</div>
+<div>
+  <button [routerLink]="['/assignment1']" class="navigation-button">
+    Go to Assignment 1
+  </button>
+  <br />
+  <button [routerLink]="['/assignment2/part1']" class="navigation-button">
+    Go to Assignment 2, Part 1 (Countries)
+  </button>
+</div>
+<!-- src/app/signup/signup.component.html -->
+
+<div>
+  <h2>Signup</h2>
+  <form [formGroup]="signupForm" (ngSubmit)="signup()">
+    <div>
+      <label>Student Name</label>
+      <input type="text" formControlName="studentName" />
+    </div>
+    <div>
+      <label>Phone</label>
+      <input type="text" formControlName="phone" />
+    </div>
+    <div>
+      <label>Email</label>
+      <input type="text" formControlName="email" />
+    </div>
+    <div>
+      <label>Roll No</label>
+      <input type="text" formControlName="rollNo" />
+    </div>
+    <div>
+      <label>Password</label>
+      <input type="password" formControlName="password" />
+    </div>
+    <div>
+      <button type="submit">Signup</button>
+    </div>
+    <div>
+      <a routerLink="/login">Go To Login</a>
+    </div>
+  </form>
+</div>

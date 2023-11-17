@@ -1,0 +1,33 @@
+<div class="content" role="main">
+  <div class="info">
+
+    <section class="left-section">
+      IWP assignment Due Date: 15th September, 2023 <br />
+      <strong>Roll no.: BT21CSE012</strong><br />Semester: 5<br />CSE'25<br />
+      <a href="mailto:devansh3839@gmail.com">devansh3839@gmail.com</a> <br />
+    </section>
+    <section class="right-section">
+      <img
+        src="../../assets/myPhoto.jpg"  
+        alt="Devansh Negi" 
+        width="100px"
+        height="100px"
+      />
+    </section>
+  </div>
+  <div>
+    <button [routerLink]="['/assignment2/part1']" class="navigation-button">
+      Go to Assignment 2, Part 1 (Countries)
+    </button>
+    <br>
+    <button [routerLink]="['/login']" class="navigation-button">
+      Go to Assignment 2, Part 2 (Contact List)
+    </button>
+    <h1>These are some questions and answers</h1>
+    <!-- <div *ngFor="let qa of qaList" class="qa-box" (click)="handleClick(qa)"> -->
+    <div *ngFor="let qa of qaList; let i = index" class="qa-box" [routerLink]="['/assignment1', 'q' + (i + 1)]">
+      <h3 style="color: #0056b3;">{{ qa.question }}</h3>
+      <p [innerHTML]="qa.answer" [hidden]="!qa.isVisible"></p>
+    </div>
+  </div>
+</div>

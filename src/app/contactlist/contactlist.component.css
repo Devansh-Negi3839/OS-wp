@@ -1,0 +1,62 @@
+/* Add this to your CSS file */
+
+p {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .contact-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .contact-row {
+    border: 1px solid #ddd;
+  }
+  
+  th, td {
+    padding: 12px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  /* Style for each property (name, email, phone, description) */
+  .contact-property {
+    font-weight: bold;
+    margin-bottom: 3px;
+  }
+  
+  /* Give some space between each contact */
+  .contact-container + .contact-container {
+    margin-top: 20px;
+  }
+  /* Add this to your CSS file */
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .left-section {
+    flex: 1;
+  }
+  
+  .left-section strong {
+    display: block;
+    margin-top: 10px;
+  }
+  
+  .right-section img {
+    border-radius: 50%;
+    border: 2px solid #007bff; /* You can choose your preferred color */
+  }
+  

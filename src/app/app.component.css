@@ -1,0 +1,106 @@
+/* Shared Styles */
+.content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.content p {
+  font-size: 16px;
+  color: #555;
+}
+
+.content a {
+  font-size: 18px;
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.content a:hover {
+  color: #0056b3;
+}
+
+.qa-box {
+  border: 1px solid #ccc;
+  padding: 15px;
+  transition: transform 0.3s;
+}
+
+.content h3 {
+  font-size: 20px;
+  color: #444;
+  margin-top: 10px;
+}
+
+.content p {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.qa-box:hover {
+  transform: translateY(-3px);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Night Mode Styles */
+.dark-mode {
+  background-color: #222;
+  color: #f2f2f2;
+}
+
+.dark-mode .qa-box {
+  background-color: #333;
+  border-color: #555;
+}
+
+.dark-mode .content h3 {
+  color: #f2f2f2;
+}
+
+.dark-mode .content p {
+  color: #ccc;
+}
+
+/* Night Mode Toggle Button */
+.night-mode-toggle {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  color: #ff4000;
+  transition: color 0.3s;
+}
+
+.night-mode-toggle:hover {
+  color: #030f1d;
+}
+
+.dark-mode .night-mode-toggle {
+  color: #0e8b3a;
+}
+
+.dark-mode .night-mode-toggle:hover {
+  color: #0c742b;
+}
+
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left-section {
+  flex: 1; /* Takes up remaining space */
+  padding-right: 20px; /* Space between sections */
+}
+
+.right-section {
+  flex: 0 0 auto; /* Fixed width for the image section */
+}

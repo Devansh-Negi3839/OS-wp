@@ -1,0 +1,31 @@
+<p>Contact List works!</p>
+<div class="info">
+
+    <section class="left-section">
+      IWP assignment Due Date: 15th September, 2023 <br />
+      <strong>Roll no.: BT21CSE012</strong><br />Semester: 5<br />CSE'25<br />
+      <a href="mailto:devansh3839@gmail.com">devansh3839@gmail.com</a> <br />
+    </section>
+    <section class="right-section">
+      <img
+        src="../../assets/myPhoto.jpg"  
+        alt="Devansh Negi" 
+        width="100px"
+        height="100px"
+      />
+    </section>
+  </div>
+<table class="contact-table">
+  <tr>
+    <th>Name</th>
+    <th>Email</th>
+    <th>Phone</th>
+    <th>Description</th>
+  </tr>
+  <tr *ngFor="let c of contacts" class="contact-row">
+    <td>{{ c.name }}</td>
+    <td>{{ c.email }}</td>
+    <td>{{ c.phone }}</td>
+    <td>{{ c.description }}</td>
+  </tr>
+</table>

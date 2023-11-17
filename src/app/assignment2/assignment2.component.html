@@ -1,0 +1,14 @@
+<p *ngIf="isLoading">Loading...</p>
+<div *ngIf="!isLoading">
+  <h1>Country Information</h1>
+  <ul class="country-list">
+    <li *ngFor="let country of countries" class="country-item">
+      <strong class="label">Common Name:</strong> {{ country.name.common }}<br>
+      <strong class="label">Official Name:</strong> {{ country.name.official }}<br>
+      <strong class="label">Capital:</strong> {{ country.capital[0] }}<br>
+      <strong class="label">Region:</strong> {{ country.region }}<br>
+      <strong class="label">Subregion:</strong> {{ country.subregion }}<br>
+      <strong class="label">Population:</strong> {{ country.population }}<br>
+    </li>
+  </ul>
+</div>

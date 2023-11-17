@@ -1,0 +1,111 @@
+/* Add this to your CSS file */
+p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .navigation-button {
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .navigation-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Container for country list items */
+  .country-item {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden; /* Ensure proper containment of child elements */
+  }
+  
+  /* Name and image container */
+  .country-details {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Country name style */
+  h2 {
+    margin-bottom: 0;
+  }
+  
+  /* Image style */
+  img {
+    max-width: 100%;
+    height: auto;
+    margin-left: 10px; /* Add some space between the name and the image */
+  }
+  /* Add this to your CSS file */
+p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .navigation-button {
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .navigation-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Container for country list items */
+  .country-item {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden; /* Ensure proper containment of child elements */
+  }
+  
+  /* Name and image container */
+  .country-details {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Country name style */
+  h2 {
+    margin-bottom: 0;
+  }
+  
+  /* Image style */
+  img {
+    max-width: 100%;
+    height: auto;
+    margin-left: auto; /* Align the image to the right */
+    display: block; /* Ensure proper spacing */
+  }
+  .info {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .left-section {
+    max-width: 60%;
+  }
+  
+  .right-section img {
+    border-radius: 50%;
+  }
